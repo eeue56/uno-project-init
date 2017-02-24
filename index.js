@@ -137,6 +137,11 @@ const main = function() {
 
 	const projectName = argv._[0];
 
+	if (typeof projectName === "undefined"){
+		console.error("Please pass a project name!");
+		return -1;
+	}
+
 	writeGitIgnore(isVerbose);
 	writeTravisYml(isVerbose, projectName, platform);
 	runUnoCreate(isVerbose, projectName, unoPath);
