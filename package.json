@@ -1,6 +1,6 @@
 {
   "name": "uno-project-init",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create Uno projects in a single command",
   "bin": {
     "uno-project-init": "index.js"
