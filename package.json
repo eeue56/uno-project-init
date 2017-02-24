@@ -1,0 +1,32 @@
+{
+  "name": "uno-project-init",
+  "version": "1.0.0",
+  "description": "Create Uno projects in a single command",
+  "bin": {
+    "uno-project-init": "index.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "fs-extra": "^2.0.0",
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eeue56/uno-project-init.git"
+  },
+  "keywords": [
+    "uno",
+    "fusetools",
+    "fuse"
+  ],
+  "author": "eeue56",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/eeue56/uno-project-init/issues"
+  },
+  "homepage": "https://github.com/eeue56/uno-project-init#readme"
+}
